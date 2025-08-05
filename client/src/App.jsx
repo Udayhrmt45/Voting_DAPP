@@ -3,7 +3,7 @@ import {ethers} from 'ethers';
 import {contractAddress, contractABI} from "./constant/constant.js";
 import Login from './components/Login.jsx';
 import Finished from './components/Finished.jsx';
-import Connected from './Components/Connected.jsx';
+import Connected from './components/Connected.jsx';
 import './App.css';
 
 function App() {
