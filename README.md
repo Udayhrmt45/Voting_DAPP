@@ -1,13 +1,19 @@
-# Sample Hardhat Project
-
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+# Voting_DAPP
+This project is a decentralized voting application built using Solidity for the smart contracts, Hardhat for development and testing, Ethers.js for interacting with the blockchain, and React.js for the front-end user interface.
+## Installation
+### Steps
+1. Clone the repository
+   ```bash
+   git clone https://github.com/Udayhrmt45/Voting_DAPP.git
+2. Install dependencies:
+   ```bash
+   npm install
+3. Compile the smart contracts:
+   ```bash
+   npx hardhat compile
+4. Deploy the smart contracts:
+   ```bash
+   npx hardhat run scripts/deploy.js --network sepolia
+5. Start the React development server:
+   ```bash
+   npm run dev
