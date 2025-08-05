@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import {ethers} from 'ethers';
 import {contractAddress, contractABI} from "./constant/constant";
-import Login from './Components/Login';
+import Login from './components/Login';
 import Finished from './components/Finished';
 import Connected from './Components/Connected';
 import './App.css';
